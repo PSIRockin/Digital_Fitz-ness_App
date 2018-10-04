@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box; /* always useful when working with border or padding properties, or any other property that can effect the box-model */
+  }
+  
+  .wrapper {
+    text-align: center; /* so we can actually see what's happening */
+    padding: 20px; /* Give us some breathing room */
+  }
+  
+
+  body {
+    display: flex;
+    background: gray;
+    /* naturally creates "whitespace" between inline elements */
+  }
+  
+div{
+    justify-content: center;
+    allign-items: center;
+}
+button{
+    
+    background: white;
+    color: black;
+    background: white;
+    background-repeat:no-repeat;
+    padding:20px; 
+    border: 3px solid rgb(0, 0, 0);
+    /* non-essential augmentations */
+    transition: .7s; /* smooth out the state change on pseudo-state :hover */
+    min-width: 100px;}
+  
+  .button1 {
+    background: white;
+    color: black;
+    padding:20px; 
+    border: 3px solid rgb(0, 0, 0);
+    /* non-essential augmentations */
+    transition: .7s; /* smooth out the state change on pseudo-state :hover */
+    min-width: 100px;
+  }
+  
+  .button1:hover{
+    border: 3px solid rgb(255, 255, 255);
+    color: white;
+    background-color: black;
+  }
+
+  #main-container {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+}
+
+.exercises {
+    margin: 20px;
+    height: 650px;
+    width: 400px;
+    border-radius: 15%;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+
+.vid {
+    margin: 20px;
+    height: 300px;
+    width: 400px;
+    border-radius: 15%;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Monofett', cursive;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 100px;
+}
+
